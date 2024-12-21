@@ -43,7 +43,7 @@ const Stopwatch: React.FC<StopwatchProps> = ({ textLabel, onChange }) => {
         padding: 2,
       }}
     >
-      <Typography variant="h6">{textLabel}</Typography>
+      <Typography variant="body1" >{textLabel}</Typography>
       <Typography variant="h4" sx={{ fontFamily: "monospace" }}>
         {Math.floor(time / 60000)
           .toString()

@@ -30,7 +30,7 @@ const Dropdown: React.FC<DropdownProps> = ({
   return (
     <Box sx={{ width: "100%" }}>
       {textLabel && (
-        <Typography variant="body1" sx={{ marginBottom: 0.5, color: "text.primary", }}>
+        <Typography variant="body1" sx={{ marginBottom: 1, color: "text.primary", }}>
           {textLabel}
         </Typography>
       )}

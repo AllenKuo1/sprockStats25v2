@@ -38,7 +38,7 @@ const RateScale: React.FC<RateScaleProps> = ({ textLabel, value, onChange, optio
         padding: 2,
       }}
     >
-      <Typography>{textLabel}</Typography>
+      <Typography variant="body1" >{textLabel}</Typography>
       <Slider
         value={value}
         min={options.min}
