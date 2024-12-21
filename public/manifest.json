@@ -1,0 +1,23 @@
+{
+  "name": "Arknights Rooster",
+  "short_name": "Krooster",
+  "description": "Roster tracker for Arknights, a game developed by Hypergryph.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#272727",
+  "theme_color": "#ffd440",
+  "orientation": "portrait-primary",
+  "version": "2.6.13",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
